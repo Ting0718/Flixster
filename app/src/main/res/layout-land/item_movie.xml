@@ -2,8 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="#666666">
 
     <ImageView
         android:id="@+id/ivPoster"
@@ -24,7 +26,8 @@
         android:layout_marginStart="7dp"
         android:layout_marginTop="7dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
         tools:text="Ad Astra" />
 
     <TextView
@@ -37,5 +40,6 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="0dp"
         android:layout_toEndOf="@+id/ivPoster"
+        android:textColor="#ffffff"
         tools:text="The near future, a time when both hope and hardships drive humanity to look to the stars and beyond. While a mysterious phenomenon menaces to destroy life on planet Earth, astronaut Roy McBride undertakes a mission across the immensity of space and its many perils to uncover the truth about a lost expedition that decades before boldly faced emptiness and silence in search of the unknown." />
 </RelativeLayout>
